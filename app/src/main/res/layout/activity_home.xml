@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityHome"
+    android:background="#442727">
+
+    <ImageButton
+        android:id="@+id/logohome"
+        android:layout_width="134dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="136dp"
+        android:background="#442727"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_svg_our"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/ib_userhome"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#442727"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reg_svg"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/iV_inf_home"
+        android:layout_width="412dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/fon_inf_home"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/logohome"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp" />
+
+
+    <ImageView
+        android:id="@+id/famaly_fon"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/famaly_fon"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toTopOf="@+id/iV_inf_home"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_famalymain"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/famaly_fon"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_famhouse"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="FAMALY-КОТТЕДЖ"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/famaly_fon" />
+
+    <TextView
+        android:id="@+id/texthosefam2"
+        android:layout_width="293dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Выходные в большой компании или романтическое путешествие - какой бы отдых вы не выбрали, у нас есть комфортный вариант проживания на любой случай.
+Всего на территории базы 4 благоустроенных домика до 8 человек кажды."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ourhouse" />
+
+    <ImageView
+        android:id="@+id/croftfon"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/fon_croft"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/famaly_fon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_crofthome"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/croftfon"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_crofthouse1"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="КОТТЕДЖ CROFT"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/croftfon" />
+
+    <TextView
+        android:id="@+id/ext_hoscroft"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Чтобы провести отдых в выходные недорого, арендуйте коттедж CROFT на базе отдыха “Берендей” и получите целый комплекс услуг, которые подарят вам максимум комфорта."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/croftfon" />
+
+    <ImageView
+        android:id="@+id/iV_home3_MAJESTYhome"
+        android:layout_width="411dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/fon_majesty"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/famaly_fon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_majhome"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_home3_MAJESTYhome"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_majhouse"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="КОТТЕДЖ MAJESTY"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_home3_MAJESTYhome" />
+
+    <TextView
+        android:id="@+id/ext_mahouseinf"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Чтобы провести отдых в выходные недорого, арендуйте коттедж Majesty на базе отдыха “Берендей” и получите целый комплекс услуг, которые подарят вам максимум комфорта."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_home3_MAJESTYhome" />
+
+    <ImageView
+        android:id="@+id/line_homes"
+        android:layout_width="286dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logohome"
+        app:srcCompat="@drawable/line_homee" />
+
+    <TextView
+        android:id="@+id/text_ourhouse"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="НАШИ ДОМИКИ"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line_homes" />
+
+    <TextView
+        android:id="@+id/text_house_infa"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Чтобы провести отдых в выходные недорого, арендуйте Family-коттедж на базе отдыха “Берендей” и получите целый комплекс услуг, которые подарят вам максимум комфорта."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/famaly_fon" />
+
+    <ImageView
+        android:id="@+id/strelk_home"
+        android:layout_width="37dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ourhouse"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="319dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_famhouse"
+        app:srcCompat="@drawable/six_pep" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="325dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_crofthouse1"
+        app:srcCompat="@drawable/four__pep" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="321dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_majhouse"
+        app:srcCompat="@drawable/people8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

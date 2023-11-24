@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBesedka"
+    android:background="#442727">
+
+    <ImageButton
+        android:id="@+id/logobesedka"
+        android:layout_width="134dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="136dp"
+        android:background="#442727"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_svg_our"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/ib_userbesedka"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#442727"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reg_svg"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/fon_ourbesedka"
+        android:layout_width="415dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/besmaingl"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/logobesedka"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp" />
+
+
+    <ImageView
+        android:id="@+id/besedka1"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/crombesedka"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toTopOf="@+id/fon_ourbesedka"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_crommain"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/besedka1"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_croftgl"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="Crom-Беседка"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/besedka1" />
+
+    <TextView
+        android:id="@+id/textbesedkamain"
+        android:layout_width="293dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="На территории нашей базы можно арендовать беседки.  Каждая беседка оборудована мангальной зоной. Для всех гостей бесплатно предоставляем дрова, уголь, жидкость для розжига. В беседке комфортно могут разместиться до десяти человек."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ourbesedka" />
+
+    <ImageView
+        android:id="@+id/sumfon"
+        android:layout_width="411dp"
+        android:layout_height="188dp"
+        android:background="@drawable/sum_besedka"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/besedka1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_sum"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sumfon"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_sumgl"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="Беседка Sum"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sumfon" />
+
+    <TextView
+        android:id="@+id/ext_sum"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Чтобы провести отдых в выходные недорого, арендуйте беседку sum на базе отдыха “Берендей” и получите целый комплекс услуг, которые подарят вам максимум комфорта."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sumfon" />
+
+    <ImageView
+        android:id="@+id/iV_grantfon"
+        android:layout_width="411dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/besedkagrant"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/besedka1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_grant"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_grantfon"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_grantgl"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="Беседка Grant"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_grantfon" />
+
+    <TextView
+        android:id="@+id/ext_grantinf"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Чтобы провести отдых в выходные недорого, арендуйте беседку grand на базе отдыха “Берендей” и получите целый комплекс услуг, которые подарят вам максимум комфорта."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_grantfon" />
+
+    <ImageView
+        android:id="@+id/line_besedka"
+        android:layout_width="286dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logobesedka"
+        app:srcCompat="@drawable/line_besedka" />
+
+    <TextView
+        android:id="@+id/text_ourbesedka"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="УЮТНЫЕ БЕСЕДКИ"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line_besedka" />
+
+    <TextView
+        android:id="@+id/text_house_infa"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Чтобы провести отдых в выходные недорого, арендуйте crom-беседку на базе отдыха “Берендей” и получите целый комплекс услуг, которые подарят вам максимум комфорта."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/besedka1" />
+
+    <ImageView
+        android:id="@+id/strelk_besedka"
+        android:layout_width="37dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ourbesedka"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <ImageView
+        android:id="@+id/imageView8_crom"
+        android:layout_width="319dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_croftgl"
+        app:srcCompat="@drawable/six_pep" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="325dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_sumgl"
+        app:srcCompat="@drawable/four__pep" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="321dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_grantgl"
+        app:srcCompat="@drawable/people8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

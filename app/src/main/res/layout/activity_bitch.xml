@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBitch">
+
+    <ImageView
+        android:id="@+id/heder_bitch"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/heder"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <ImageView
+        android:id="@+id/logo_btn_bitch"
+        android:layout_width="70dp"
+        android:layout_height="68dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/heder_bitch"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_svg_our" />
+
+    <ImageView
+        android:id="@+id/iV_foto1"
+        android:layout_width="227dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heder_bitch"
+        app:srcCompat="@drawable/foto1" />
+
+    <ImageView
+        android:id="@+id/bitch_text"
+        android:layout_width="272dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heder_bitch"
+        app:srcCompat="@drawable/infa1_bitch" />
+
+    <TextView
+        android:id="@+id/textView_bitch"
+        android:layout_width="170dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="center"
+        android:text="Посещение пляжа бесплатное, аренда шезлонгов, зонтиков и бунгало за дополнительную плату. За безопасность на берегу отвечают квалифицированные спасатели, есть медицинский пункт."
+        android:textColor="#442727"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heder_bitch"
+        tools:ignore="SmallSp" />
+
+    <ImageView
+        android:id="@+id/regimm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heder_bitch"
+        app:srcCompat="@drawable/regim" />
+
+    <ImageView
+        android:id="@+id/fototext"
+        android:layout_width="349dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV_foto1"
+        app:srcCompat="@drawable/foto_seridina" />
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="219dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fototext"
+        app:srcCompat="@drawable/foto2" />
+
+    <ImageView
+        android:id="@+id/foto3"
+        android:layout_width="221dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="64dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto2"
+        app:srcCompat="@drawable/foto3" />
+
+    <ImageView
+        android:id="@+id/foto4"
+        android:layout_width="219dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fototext"
+        app:srcCompat="@drawable/foto4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBany"
+    android:background="#442727">
+
+    <ImageButton
+        android:id="@+id/logobany"
+        android:layout_width="134dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="136dp"
+        android:background="#442727"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_svg_our"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageView
+        android:id="@+id/fon_ourbany"
+        android:layout_width="415dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/fommainbany"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/logobany"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <ImageView
+        android:id="@+id/bany_for"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/fon_forest"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toTopOf="@+id/fon_ourbany"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_forest"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bany_for"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_forgl"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="БАНЯ ЛЕСНИКА"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bany_for" />
+
+    <TextView
+        android:id="@+id/textbesedkamain"
+        android:layout_width="304dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Что может быть лучше, чем просто отдых с друзьями? Конечно же отдых в бане на базе отдыха “Берендей”! Здесь вы сможете получить незабываемое наслаждение.
+Веселье и непринужденную обстановку мы вам гарантируем. К тому же все это с пользой для здоровья."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ourbesedka" />
+
+    <ImageView
+        android:id="@+id/grantbanfon"
+        android:layout_width="411dp"
+        android:layout_height="188dp"
+        android:background="@drawable/fongrantbany"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/bany_for"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_grban"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/grantbanfon"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_grantbany"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="БАНЯ GRANT"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/grantbanfon" />
+
+    <TextView
+        android:id="@+id/ext_grantban"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Русская баня на дровах по-белому для любителей «поддать парку» Что может быть лучше в пору осеннего ненастья, чем баня? Пожалуй, только настоящая русская баня!"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/grantbanfon" />
+
+    <ImageView
+        android:id="@+id/iV_chan"
+        android:layout_width="411dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/fon_chan"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toBottomOf="@+id/bany_for"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_chan"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#80FFFFFF"
+        android:text="забронировать"
+        android:textColor="#442727"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_chan"
+        tools:ignore="MissingConstraints,SmallSp,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/text_changl"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="БАНЯ С ЧАНОМ"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_chan" />
+
+    <TextView
+        android:id="@+id/ext_chaninf"
+        android:layout_width="277dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="В бане есть сибирский чан на огне."
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iV_chan" />
+
+    <ImageView
+        android:id="@+id/line_bany"
+        android:layout_width="286dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logobany"
+        app:srcCompat="@drawable/line_besedka" />
+
+    <TextView
+        android:id="@+id/text_ourbesedka"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/pt_serif_bold"
+        android:gravity="center"
+        android:text="РУССКИЕ БАНИ"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line_bany" />
+
+    <TextView
+        android:id="@+id/text_forest_infa"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/pt_serif"
+        android:gravity="center"
+        android:text="Русская баня на дровах по-белому для любителей «поддать парку» Что может быть лучше в пору осеннего ненастья, чем баня? Пожалуй, только настоящая русская баня!"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bany_for" />
+
+    <ImageView
+        android:id="@+id/strelk_bany"
+        android:layout_width="37dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_ourbesedka"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <ImageView
+        android:id="@+id/imageView8_bany"
+        android:layout_width="319dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_forgl"
+        app:srcCompat="@drawable/par6" />
+
+    <ImageView
+        android:id="@+id/imageView9_bany"
+        android:layout_width="325dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_grantbany"
+        app:srcCompat="@drawable/par8" />
+
+    <ImageView
+        android:id="@+id/imageView11_bany"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_changl"
+        app:srcCompat="@drawable/par7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
